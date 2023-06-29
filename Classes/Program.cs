@@ -4,7 +4,18 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+          
+            Car Mycar = new Car();
+            Mycar.Make = "Nissan";
+            Mycar.model = "Altima";
+            Mycar.year = 2023;
+
+            Console.WriteLine(Mycar.Make);
+            Console.WriteLine(Mycar.model);
+            Console.WriteLine(Mycar.year);
+
         }
     }
-}
+
+} 
+
